@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <title>Currency Exchange</title>
-</head>
-<body>
-  <div class="container">
-    <h1>How much money would you have somewhere else?</h1>
-    <h2>Well how much do you have now?</h2>
-    <div class="form-group">
-      <form id="input">
-        <label for="dollars">Enter a Dollar amount!</label>
-        <input id="number" class ="form-control" type="text">
-      </form>
-      <div class="form-control">
-        <select name="money" id="money">
-          <option value="CNY">China</option>
-          <option value="JPY">Japan</option>
-          <option value="RUB">Russia</option>
-          <option value="MXN">Mexico</option>
-          <option value="TRY">Turkey</option>
-          <option value="GGG">Gill</option>
-        </select>
-        <button class="btn-success" id="convert">Get new amount!</button>
+<html>
+  <head>
+    <title>Currency Exchange</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>How much money would you have somewhere else?</h1>
+      <h2>Well how much do you have now?</h2>
+      <div class="form-group">
+        <form id="input">
+          <label for="dollars">Enter a Dollar amount!</label>
+          <input id="number" class ="form-control" type="text">
+        </form>
+        <div class="form-control">
+          <select name="money" id="money">
+            <option value="CNY">China</option>
+            <option value="JPY">Japan</option>
+            <option value="RUB">Russia</option>
+            <option value="MXN">Mexico</option>
+            <option value="TRY">Turkey</option>
+            <option value="GGG">Gill</option>
+          </select>
+          <button class="btn-success" id="convert">Get new amount!</button>
+        </div>
       </div>
+      <div class="showResults"></div>
+      <div class="showErrors"></div>
     </div>
-    <div class="showResults"></div>
-    <div class="showErrors"></div>
-  </div>
-</body>
+  </body>
 </html>
