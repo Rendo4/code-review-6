@@ -32,9 +32,11 @@ _Hello and thank you for viewing 'Exchange Rate' application! This project uses 
 * _It should now be on your desktop! Open the folder "epicodus-review-6"_
 * _go to https://www.exchangerate-api.com/docs/overview and sign up for a free API key._
 * _in your root directory add a file called ".env"_
-* _ in the ".env" file create a variable called "API_KEY"*
+* _ in the ".env" file create a variable called "API_KEY"*_
 * _store your API key from the Exchange rate website in the "API_KEY" variable, save the file_
-* _Click on "Index.html" This will open the file for viewing._
+* _run the "npm install" command in the terminal to download dependancies_
+* _run the "npm run build" command in the terminal._
+* _run the "npm run start" command in the terminal to use the code._
 
 ## Known Bugs
 
