@@ -25,7 +25,7 @@ _Hello and thank you for viewing 'Exchange Rate' application! This project uses 
 
 ## Setup/Installation Requirements
 
-* You can visit my github Rendo4 or you can copy this link to my repository https://github.com/Rendo4/epicodus-review-4 
+* You can visit my github Rendo4 or you can copy this link to my repository https://github.com/Rendo4/epicodus-review-6 
 * _open your terminal_
 * _use the command "cd desktop"_
 * _use the command "git clone (https://github.com/Rendo4/epicodus-review-6)_
