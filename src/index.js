@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     (async () => {
       let exchangeRate = new ExchangeRate();
-      const response = await exchangeRate.getMoneybyCurrency(amount, currency);
+      const response = await exchangeRate.getMoneybyCurrency();
       getElements(response);
     })();
 
